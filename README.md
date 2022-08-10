@@ -21,4 +21,4 @@ You can contibute this Repository but **you have to follow some guidelines** giv
 
 After all, Thanks to <a href = "https://www.geeksforgeeks.org/">***GeekforGeeks***</a> for this great platforms.
 
-Made with ❤️ & ☕ <a href = "https://auth.geeksforgeeks.org/user/debarghamitraroy">***Debargha Mitra Roy***</a>
+Made with ❤️ & ☕ by <a href = "https://auth.geeksforgeeks.org/user/debarghamitraroy">***Debargha Mitra Roy***</a>
