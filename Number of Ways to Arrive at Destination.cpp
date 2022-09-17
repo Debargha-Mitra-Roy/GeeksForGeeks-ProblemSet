@@ -1,7 +1,7 @@
 /*
     Number of Ways to Arrive at Destination :-
 
-    Link:   https://practice.geeksforgeeks.org/problems/smallest-subset-with-greater-sum/1
+    Link:   https://practice.geeksforgeeks.org/problems/number-of-ways-to-arrive-at-destination/1
 */
 
 #include <iostream>
