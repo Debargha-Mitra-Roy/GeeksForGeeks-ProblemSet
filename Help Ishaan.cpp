@@ -1,7 +1,7 @@
 /*
-    GP Term :-
+    Help Ishaan :-
 
-    Link:   https://practice.geeksforgeeks.org/batch-problems/gp-term/0/
+    Link:   https://practice.geeksforgeeks.org/problems/help-ishaan5837/1
 */
 
 #include <iostream>
