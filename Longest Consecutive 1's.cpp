@@ -1,7 +1,7 @@
 /*
-	Longest Consecutive 1's:-
-	
-	LINK:	https://practice.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1/
+    Longest Consecutive 1's :-
+
+    LINK:	https://practice.geeksforgeeks.org/problems/longest-consecutive-1s-1587115620/1/
 */
 
 #include <iostream>
