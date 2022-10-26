@@ -6,7 +6,7 @@
 
 #include <iostream>
 #include <string>
-#include <algorithm>
+#include <stack>
 using namespace std;
 
 class Solution
@@ -14,27 +14,31 @@ class Solution
 public:
     string reverseWords(string S)
     {
-        string ans = "", temp = "";
+        stack<string> st;
 
-        int n = S.length();
-
-        for (int i = n - 1; i >= 0; i--)
+        for (int i = 0; i < S.length(); i++)
         {
-            if (S[i] == '.')
+            string word = "";
+
+            while (S[i] != '.' && i < S.length())
             {
-                reverse(temp.begin(), temp.end());
-                ans = ans + temp;
-                ans.push_back('.');
-                temp = "";
+                word += S[i];
+                i++;
             }
 
-            else
-                temp.push_back(S[i]);
+            st.push(word);
         }
 
-        reverse(temp.begin(), temp.end());
+        string ans = "";
 
-        ans = ans + temp;
+        while (!st.empty())
+        {
+            ans = ans + st.top() + '.';
+            st.pop();
+        }
+
+        ans.pop_back();
+
         return ans;
     }
 };
