@@ -14,6 +14,7 @@ public:
     string baseEquiv(int n, int m)
     {
         bool flag = false;
+
         for (int i = 2; i <= 32; i++)
         {
             int num = n;
@@ -23,13 +24,14 @@ public:
                 num /= i;
                 count++;
             }
-            
+
             if (count == m)
             {
                 flag = true;
                 break;
             }
         }
+
         return ((flag) ? "Yes" : "No");
     }
 };
