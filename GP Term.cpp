@@ -14,7 +14,7 @@ public:
     double termOfGP(int A, int B, int N)
     {
         // Base Case
-        if(N == 1)
+        if (N == 1)
             return A;
 
         return (termOfGP(A, B, N - 1) * (double(B) / double(A))); // Recursion
