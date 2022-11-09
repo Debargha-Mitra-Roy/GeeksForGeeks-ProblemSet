@@ -65,6 +65,6 @@ int main()
         }
  
         Solution ob;
-        cout << ob.findMinSum(A, B, N) << endl;
+        cout << ob.findMinSum(A, B, N) << "\n";
     }
 }
