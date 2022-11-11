@@ -1,7 +1,7 @@
 /*
-    Primality Test :-
+    Primes sum :-
 
-    Link:   https://practice.geeksforgeeks.org/batch-problems/primality-test/0/
+    Link:   https://practice.geeksforgeeks.org/problems/primes-sum5827/1
 */
 
 #include <iostream>
